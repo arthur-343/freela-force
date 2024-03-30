@@ -69,7 +69,7 @@ input[type="submit"]:hover {
          <td><input type="text" name="thumbnail"></td>
       </tr>
       <tr>
-         <td>Expiration date</td>
+         <td>contact email</td>
          <td>:</td>
          <td><input type="text" name="year"></td>
       </tr>
