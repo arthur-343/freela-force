@@ -13,7 +13,7 @@ $db = new firebaseRDB($databaseURL);
    <tr align="center" bgcolor="#dddddd";>
       <td>image</td>
       <td>Title</td>
-      <td>expiration date</td>
+      <td>contact email</td>
       <td>description</td>
       <td colspan="2">Action</td>
    </tr>
