@@ -27,8 +27,7 @@ if($name == ""){
         ]);
         $result = json_decode($insert, 1);
         if(isset($result['name'])){
-            echo "Signup success, please <a href='login.php'>login</a>";
-
+            header("location: dashboard.php");
         } else{
             echo "Signup failed";
         }
