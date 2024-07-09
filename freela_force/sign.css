@@ -1,3 +1,12 @@
+:root {
+  --default-green: #06d6a0;
+  --default-dark-green: #073b4c;
+  --light-gray: #b4b4b4;
+  --default-text-color: #495057;
+  --signin-background-color: #fafafa;
+  --white: #fff;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -88,33 +97,10 @@ input[type="submit"] {
   margin: 30px 0 10px 0;
   border-radius: 5px;
   border: none;
-  background-color: #06d6a0;
+  background-color: var(--default-green);
   font-weight: 600;
   color: white;
   cursor: pointer;
-}
-
-input[type="submit"]#submit-btn.loading::after {
-  content: ""; /* Conteúdo vazio, será usado para a animação */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 20px;
-  height: 20px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  border-top-color: transparent;
-  animation: spin 1s linear infinite;
-}
-
-/* Animação de rotação */
-@keyframes spin {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
 }
 
 input[type="submit"]:hover {

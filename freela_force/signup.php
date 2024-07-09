@@ -39,17 +39,6 @@
         </form>
       </div>
     </div>
-</div>    
-<!-- <form method="post" action="signup_action.php">
-<h2>SIGN UP FORM</h2>
-<label>Full Name</label><br>
-<input type="text" name="name"><br>
-<label>Email</label><br>
-<input type="text" name="email"><br>
-<label>Password</label><br>
-<input type="password" name="password"><br>
-<input type="submit" value="SIGNUP"><br><br>
-Already have an account? <a href="login.php">Login</a>
-</form> -->
+</div> 
 </body>
 </html>
