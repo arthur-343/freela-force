@@ -1,6 +1,6 @@
 <?php
-      include("./config.php");
-      include("./firebaseRDB.php");
+      include("./crud/config.php");
+      include("./crud/firebaseRDB.php");
 
       $db = new firebaseRDB($databaseURL);
     ?>
