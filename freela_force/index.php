@@ -2,9 +2,9 @@
 include("config.php");
 
 if(!isset($_SESSION['user'])){
-    header("location:/freela-force/freela_force/signin.php");
+    header("location:signin.php");
 } else{
-    header("location: /freela-force/freela_force/dashboard.php");
+    header("location:dashboard.php");
 }
 
 
