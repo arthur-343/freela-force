@@ -72,14 +72,12 @@ header {
   cursor: pointer;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
 section {
   margin-inline: auto;
-  width: 70%;
-  max-width: 1800px;
   padding: 40px 0;
 }
 
@@ -108,7 +106,7 @@ section {
   border-radius: 15px;
 }
 
-section#cards {
+section #cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 15px;
