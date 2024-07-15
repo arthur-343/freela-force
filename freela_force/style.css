@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --default-red: #ef476f;
+  --default-green: #06d6a0;
+  --default-yellow: #ffd166;
+  --default-blue: #118ab2;
+  --default-dark-green: #073b4c;
+  --light-gray: #b4b4b4;
+  --default-text-color: #495057;
+  --signin-background-color: #fafafa;
+  --white: #fff;
+}
+
 h1 {
   color: #000;
 }

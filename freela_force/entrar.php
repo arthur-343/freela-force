@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>login page</title>
+<title>Página de Login</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="sign.css">
 </head>
@@ -26,14 +26,14 @@
         Back
       </button>
         <form method="post" action="login_action.php">
-            <h1>Sign In</h1>
-            <h2>Please Sign In with your email and password to acess your account.</h2>
+            <h1>Entrar</h1>
+            <h2>Porfavor entre com seu email e senha para acessar a sua conta.</h2>
             <label>Email</label>
             <input type="text" name="email">
-            <label>Password</label>
+            <label>Senha</label>
             <input type="password" name="password">
             <input type="submit" value="Sign In">
-            Don't have an account yet? <a href="signup.php" style="color: #118ab2;">Sign up</a>
+            Não tem uma conta ainda? <a href="cadastro.php" style="color: #118ab2;">Cadastre-se</a>
         </form>
       </div>
     </div>

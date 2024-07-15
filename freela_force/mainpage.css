@@ -36,6 +36,7 @@ header {
   border-bottom: 2px solid var(--default-green);
 }
 
+/* ----------------Dropdown menu------------------------- */
 .wrapper {
   position: relative;
   display: inline-block;
@@ -76,8 +77,12 @@ header {
   display: none;
 }
 
+/* ----------------Dropdown menu------------------------- */
+
 section {
   margin-inline: auto;
+  width: 70%;
+  max-width: 1800px;
   padding: 40px 0;
 }
 
@@ -106,9 +111,9 @@ section {
   border-radius: 15px;
 }
 
-section #cards {
+#cards {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 15px;
 }
 
@@ -130,4 +135,52 @@ section #cards {
 .card h2 {
   font-weight: 400;
   color: white;
+}
+
+.cardstext {
+  margin-inline: auto;
+  width: 70%;
+  max-width: 1800px;
+}
+
+#textresults {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  color: var(--default-text-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+#proposals {
+  width: 70%;
+  max-width: 1800px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.proposal {
+  padding: 10px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.proposal img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.proposal h3,
+.proposal p {
+  margin: 10px 0;
+}
+
+.proposal a {
+  display: inline-block;
+  margin-right: 10px;
 }
