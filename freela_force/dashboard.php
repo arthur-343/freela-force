@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Freela-Force</title>
-    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="style.css">
 </head>
     <style>
@@ -31,7 +31,7 @@
               <div id="DropDown" class="hidden dropdown">
                 <ul>
                   <li>
-                    Tornece um prestador
+                    <a href="crud\add.php">Tornece um prestador</a>
                   </li>
                   <li style="color: #ef476f; border-bottom: none">
                     Logout

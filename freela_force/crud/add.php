@@ -4,84 +4,23 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/add.css">
+<link rel="stylesheet" href="../style.css">
 <title>Add Data</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333333; /* Fundo cinza quase preto */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-}
-
-table {
-    margin: auto; /* Centralizando a tabela */
-}
-
-td {
-    padding: 5px;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    color: #000; /* Texto preto */
-    background-color: #ffd700; /* Botão amarelo */
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #ffd700; /* Botão amarelo */
-    color: #000; /* Texto preto */
-}
-</style>
 </head>
 <body>
-<form method="post" action="action_add.php">
-   <table border="0" width="500">
-      <tr>
-         <td>Title</td>
-         <td>:</td>
-         <td><input type="text" name="title"></td>
-      </tr>
-      <tr>
-         <td>Link of a image</td>
-         <td>:</td>
-         <td><input type="text" name="thumbnail"></td>
-      </tr>
-      <tr>
-         <td>contact email</td>
-         <td>:</td>
-         <td><input type="text" name="year"></td>
-      </tr>
-      <tr>
-         <td>Description</td>
-         <td>:</td>
-         <td><input type="text" name="rating"></td>
-      </tr>
-      <tr>
-         <td colspan="3" align="center"><input type="submit" value="SAVE"></td>
-      </tr>
-   </table>
-</form>
+    <main>
+    <form method="post" action="action_add.php">
+        <h2>Título</h2>
+         <input type="text" placeholder="digite o título aqui..." name="title"></input>
+         <h2>Foto de capa</h2>
+         <input type="text" placeholder="Coloque o link de uma imagem aqui..." name="thumbnail">
+         <h2>Descrição</h2>
+         <textarea rows="10" placeholder="Digite sua descrição aqui..." name="description"></textarea>
+         <h2>Data</h2>
+         <input placeholder="exemplo: 17/07/2024" type="text" name="year"></input>
+         <input type="submit" value="Confirmar"></td>
+    </form>
+    </main>
 </body>
 </html>
