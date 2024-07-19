@@ -12,8 +12,8 @@
   <div class="container">
     <div class="leftContainer">
       <video autoplay muted loop>
-            <source src="../../img/loginvideo.mp4" type="video/mp4">
-        </video>
+        <source src="./img/loginvideo.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="rightContainer">
       <div class="rightContent">

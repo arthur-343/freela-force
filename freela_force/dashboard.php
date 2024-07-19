@@ -11,13 +11,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Freela-Force</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="mainpage.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
     <style>
       
     </style>
-
 <body>
       <header>
         <div class="header-content">
@@ -101,7 +101,7 @@
           </div>
 
           <div class="card" style="background-color: var(--default-dark-green);">
-              <div class="white-svg">
+              <div class="white-svg" style="width: 40px; height: 40px; margin: 5px 5px 25px 5px">
                 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M272 288h-64C163.8 288 128 323.8 128 368C128 376.8 135.2 384 144 384h192c8.836 0 16-7.164 16-16C352 323.8 316.2 288 272 288zM240 256c35.35 0 64-28.65 64-64s-28.65-64-64-64c-35.34 0-64 28.65-64 64S204.7 256 240 256zM496 320H480v96h16c8.836 0 16-7.164 16-16v-64C512 327.2 504.8 320 496 320zM496 64H480v96h16C504.8 160 512 152.8 512 144v-64C512 71.16 504.8 64 496 64zM496 192H480v96h16C504.8 288 512 280.8 512 272v-64C512 199.2 504.8 192 496 192zM384 0H96C60.65 0 32 28.65 32 64v384c0 35.35 28.65 64 64 64h288c35.35 0 64-28.65 64-64V64C448 28.65 419.3 0 384 0zM400 448c0 8.836-7.164 16-16 16H96c-8.836 0-16-7.164-16-16V64c0-8.838 7.164-16 16-16h288c8.836 0 16 7.162 16 16V448z"/></svg>
               </div>
 
@@ -151,13 +151,20 @@
       </main>
       <div class="proposal">
       </div>
-        
-      
-        <!-- Botão de "Vagas" -->
-        <a href="crud\index.php" class="btn">job vacancies</a>
-        <!-- Botão de "Logout" -->
-        <a href="add.php"><button>ADD DATA</button></a><br><br>
 
+      <footer>
+        <div class="footer-content">
+          <div>
+          <span class="logo" style="color: var(--white)">
+                Freela<span style="color: var(--default-green); font-size: 3rem">.</span>
+            </span>
+          </div>
+            <div>
+            <span style="color: var(--light-gray)">Copyright © 2024 Freela</span>
+
+            </div>
+        </div>
+      </footer>
 
         <script>
           document.querySelector('.profile').addEventListener('click', function() {
